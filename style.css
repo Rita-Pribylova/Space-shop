@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    min-width: 360px;
+    background-color: #131316;
+}
+
+a,
+button {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #131316;
+}
+
+header {
+    background: url(img/bgr.jpg) no-repeat center top / cover;
+    height: 667px;
+}
+
+.gradient {
+    background: linear-gradient(180deg, rgba(19, 19, 22, 0) 0%, #131316 100%);
+    height: 500px;
+    margin-top: 160px;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.button,
+.card-wrap button,
+.promo button {
+    width: 180px;
+    height: 40px;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main {
+    margin-top: -538px;
+}
+
+del {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D9D9D9;
+}
+
+.del {
+    margin-top: 1px;
+}
+
+.bold,
+.bold2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.bold2 {
+    margin: -4px -2px 0 5px;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.btn2 {
+    margin: 11px 10px;
+}
+
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 25px 0 55px 0;
+    align-items: center;
+}
+
+.cruiser-img {
+    margin-top: 10px;
+}
+
+.cruiser-text {
+    padding: 35px 0 6px 0;
+}
+
+.card img {
+    padding: 20px 15px 0 0;
+}
+
+.card,
+.promo {
+    width: 200px;
+    height: 310px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 4px;
+}
+
+.card-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 28px;
+}
+
+.ship {
+    margin: 24px 0 10px 0;
+}
+
+.big-card {
+    width: 305px;
+    height: 340px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 4px;
+}
+
+.warship img {
+    padding: 22px 0 18px 0;
+}
+
+.warship .bold,
+.warship2 .bold {
+    margin-top: 5px;
+}
+
+.warship .btn,
+.warship2 .btn {
+    width: 285px;
+    height: 40px;
+}
+
+.warship2 img {
+    padding: 2px 0;
+}
+
+.promo {
+    width: 620px;
+    height: 470px;
+    padding: 30px 0 35px 0;
+    margin: 25px 0 60px 0;
+}
+
+.promo-card {
+    display: flex;
+}
+
+.info {
+    padding: 0 0 30px 10px;
+}
+
+.info h3 {
+    padding: 10px 0 8px 0;
+}
+
+.icon img {
+    padding-left: 3px;
+}
+
+.details,
+.discount p {
+    font-size: 13px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.price,
+.discount {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.price {
+    padding: 18px 0 25px 0;
+}
+
+.price del {
+    margin-top: 1px;
+}
+
+.price p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 1px;
+}
+
+.red {
+    color: #FFFFFF;
+    width: 60px;
+    height: 24px;
+    background: #FF0000;
+    border-radius: 4px;
+}
+
+.red-color {
+    font-weight: 700;
+    color: #FF0000
+}
+
+.discount-priced {
+    padding: 0 0 0 42px;
+}
+
+.promo-code {
+    padding: 10px 0;
+}
+
+.promo-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+.promo-order button {
+    width: 280px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.promo-text h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 280px;
+    height: 60px;
+    border: 1px dashed #131316;
+    border-radius: 4px;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+.social {
+    padding-top: 19px;
+    text-align: center;
+}
+
+.fb {
+    padding: 0 16px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 26px 0;
+}
+
+.contacts-info p {
+    text-align: left;
+}
+
+.contacts-title {
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mail {
+    text-decoration-line: underline;
+}
